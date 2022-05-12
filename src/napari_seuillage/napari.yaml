@@ -18,11 +18,8 @@ contributions:
       python_name: napari_seuillage._widget:ExampleQWidget
       title: Make example QWidget
     - id: napari-seuillage.make_magic_widget
-      python_name: napari_seuillage._widget:example_magic_widget
+      python_name: napari_seuillage._widget:do_model_segmentation
       title: Make example magic widget
-    - id: napari-seuillage.make_func_widget
-      python_name: napari_seuillage._widget:example_function_widget
-      title: Make example function widget 
   readers:
     - command: napari-seuillage.get_reader
       accepts_directories: false
@@ -42,7 +39,4 @@ contributions:
     - command: napari-seuillage.make_qwidget
       display_name: Example QWidget
     - command: napari-seuillage.make_magic_widget
-      display_name: Example Magic Widget
-    - command: napari-seuillage.make_func_widget
-      autogenerate: true
-      display_name: Example Function Widget 
+      display_name: Seuillage
